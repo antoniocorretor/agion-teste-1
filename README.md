@@ -31,6 +31,16 @@ npm -v
 
    O app ficará disponível em `http://localhost:5173`.
 
+### Executando no ambiente online
+
+Se você estiver utilizando este repositório em um ambiente de nuvem (como esta avaliação), execute o comando abaixo para que o servidor fique acessível pelo navegador embutido:
+
+```bash
+npm run dev -- --host 0.0.0.0 --port 5173 --clearScreen false
+```
+
+Depois, acesse a URL exibida na saída (ex.: `http://localhost:5173`). Quando terminar de testar, pressione `Ctrl+C` no terminal para encerrar o Vite.
+
 Para gerar a versão de produção execute `npm run build` e visualize com `npm run preview`.
 
 ## Publicando no GitHub
