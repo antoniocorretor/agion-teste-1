@@ -23,6 +23,8 @@ npm -v
    ```bash
    npm install
    ```
+
+   > 💡 **Não é necessário instalar o Vite separadamente.** Ele já está listado em `package.json` e será baixado automaticamente pelo `npm install`. Depois disso, sempre que você executar os scripts (`npm run dev`, `npm run build`), o Vite será utilizado a partir das dependências locais do projeto.
 4. Inicie o servidor de desenvolvimento:
 
    ```bash
