@@ -29,7 +29,13 @@ npm -v
    npm run dev
    ```
 
-   O app ficará disponível em `http://localhost:5173`.
+   O Vite exibirá, no terminal, o endereço local do app (`http://localhost:5173`).
+
+### Acessando o app no navegador
+
+- **Se estiver no seu computador**: abra qualquer navegador e digite `http://localhost:5173` na barra de endereços.
+- **Se estiver num ambiente remoto (máquina virtual, container, codespace etc.)**: após rodar `npm run dev -- --host 0.0.0.0 --port 5173`, use o recurso de _port forwarding_ ou de "abrir no navegador" oferecido pela plataforma para acessar a porta **5173**. Normalmente a própria interface mostra um link como `https://<sua-sessao>.apps.<provedor>.com` que aponta para o servidor Vite.
+- Para encerrar o servidor, volte ao terminal em que ele está rodando e pressione `Ctrl+C`.
 
 ### Executando no ambiente online
 
